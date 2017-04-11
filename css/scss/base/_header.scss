@@ -1,0 +1,23 @@
+
+.navbar-brand {
+	width: 322px;
+	height: 98px;
+	background: url(../../img/frontend/some-image-here.png) left top no-repeat;
+	background-size: 322px 98px;
+}
+
+.navbar-toggle {
+	@include border-radius(2px);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background: $primary-color;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: $primary-color;
+	border-color: $primary-color;
+	.icon-bar {
+		background: white;
+	}
+}

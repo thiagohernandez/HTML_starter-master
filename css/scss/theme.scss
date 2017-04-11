@@ -1,0 +1,40 @@
+// BOOTSTRAP - If you want in the same .CSS file
+@import "bootstrap/bootstrap";
+
+// COMMON IMPORTS
+//@import "config/font-face"; If you have a webfonts in some directory active this line and edit this file
+@import "config/variables";
+@import "config/mixins";
+
+// BASE
+@import "base/base";
+@import "base/header";
+
+// PARTIALS
+@import "partials/buttons";
+@import "partials/forms";
+@import "partials/sections";
+@import "partials/tables";
+@import "partials/cards";
+@import "partials/home";
+
+// PLUGINS - If exists
+@import "plugins/owl-theme";
+@import "plugins/animate";
+@import "plugins/fontawesome/font-awesome";
+
+// FOOTER
+@import "base/footer";
+
+// RESPONSIVE
+@import "base/responsive";
+
+
+
+
+
+
+
+
+
+
