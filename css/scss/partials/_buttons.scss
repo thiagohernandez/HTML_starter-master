@@ -1,6 +1,6 @@
 /* BUTTON */
 .btn {
-    background: transparent;
+    background-color: transparent;
     border: none;
     border-radius: 3px;
     padding: 12px 24px;
@@ -17,7 +17,7 @@
     color: $primary-color;
     &:hover {
         color: $tertiary-color;
-        background: transparent;
+        background-color: transparent;
     }
 }
 
@@ -32,17 +32,6 @@
     }
 }
 
-.btn-minimal-secundary {
-    @extend .btn;
-    color: $secundary-color;
-    border: 1px solid rgba($secundary-color, 0.3);
-    background-color: transparent;
-    &:hover {
-        color: white;
-        background-color: $secundary-color;
-        border: 1px solid rgba($secundary-color, 1);
-    }
-}
 
 .btn-primary {
     @extend .btn;
@@ -50,17 +39,17 @@
     background-color: $primary-color;
     &:hover {
         color: white;
-        background: darken($primary-color, 10%);
+        background-color: darken($primary-color, 10%);
     }
 }
 
-.btn-secundary {
+.btn-secondary {
     @extend .btn;
     color: white;
-    background-color: $secundary-color;
+    background-color: $secondary-color;
     &:hover {
         color: white;
-        background: darken($secundary-color, 10%);
+        background-color: darken($secondary-color, 10%);
     }
 }
 
@@ -70,7 +59,7 @@
     background-color: $tertiary-color;
     &:hover {
         color: white;
-        background: darken($tertiary-color, 10%);
+        background-color: darken($tertiary-color, 10%);
     }
 }
 
