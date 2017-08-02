@@ -22,3 +22,23 @@
 	padding-top: calculateRem(124px);
 	padding-bottom: calculateRem(124px);
 }
+
+.section-primary {
+	background-color: $primary-color;
+}
+
+.section-secondary {
+	background-color: $secondary-color;
+}
+
+.section-tertiary {
+	background-color: $primary-tertiary;
+}
+
+.bg-cover {
+	background-size: cover;
+}
+
+.bg-attachment-fixed {
+	background-attachment: fixed;
+}
