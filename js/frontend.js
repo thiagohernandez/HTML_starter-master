@@ -52,6 +52,12 @@ jQuery(document).ready(function() {
     };
     POINT.OwlCarousel();
 
+    WebFont.load({
+        google: {
+          families: ['Merriweather:700i,900i|Poppins:300,400,400i,700,700i']
+        }
+    });
+
     jQuery('.animate').waypoint(function () {
         var animation = jQuery(this).attr("data-animate");
         var delay = jQuery(this).attr("data-animation-delay");
