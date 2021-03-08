@@ -11,21 +11,77 @@ $font-weight-normal: 400;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
-/* CORES */
-$primary-color: rgb(35,119,203); /* AZUL */
-$secondary-color: rgb(249,105,14); /* LARANJA */
-$tertiary-color: rgb(192,62,99); /* VERDE */
+//
+// Color system
+//
 
-$gray: rgb(105,109,119);
-$dark-gray: rgb(61,65,75);
+$primary-color: rgba(123, 205, 200, 1);
+$secondary-color: rgba(90, 97, 117, 1);
+$tertiary-color: rgba(245, 165, 113, 1);
 
-$red: rgb(216, 31, 53);
-$red-darker: rgb(174, 31, 35);
+$green: rgba(93, 157, 1, 1);
+$secondary-green: rgba(96, 129, 49, 1);
 
-$green: rgb(135, 211, 124);
+$yellow-primary: rgba(255, 222, 166, 1);
+$yellow-secondary: rgba(248, 217, 190, 1);
+$yellow-tertiary: $tertiary-color;
+$yellow-mate: rgb(243, 243, 206);
 
-$blue: rgb(65, 131, 215);
+$color-alert-yellow: rgba(250, 255, 177, 1);
+$color-alert-green: rgba(24, 223, 137, 1);
+$color-alert-red: rgba(255, 63, 49, 1);
+$color-brand-coral: rgba(255, 127, 80, 1);
 
-$ice-age: rgb(248,249,251);
-$porcelain: rgb(242,243,247);
+$gray-00: rgba(249, 249, 251, 1);
+$gray-01: rgba(243, 244, 247, 1);
+$gray-02: rgba(230, 232, 238, 1);
+$gray-03: rgba(206, 208, 221, 1);
+$gray-04: rgba(194, 197, 212, 1);
+$gray-05: rgba(181, 186, 204, 1);
+$gray-06: rgba(169, 174, 195, 1);
+$gray-07: rgba(157, 163, 187, 1);
+$gray-08: rgba(117, 127, 154, 1);
+$dark-gray-04: rgba(13, 14, 17, 1);
+$dark-gray-03: rgba(39, 42, 51, 1);
+$dark-gray-02: rgba(52, 56, 68, 1);
+$dark-gray-01: rgba(65, 71, 86, 1);
+$gray-09: $dark-gray-01;
+$brand-black: #000;
+
+@mixin effect-style-dropshadow-input {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@mixin effect-style-dropshadow-light {
+  box-shadow: 0px 14px 14px -16px rgba(0, 0, 0, 0.25);
+}
+
+/*
+BOOTSTRAP COLORS
+*/
+
+$primary: $primary-color;
+$secondary: $secondary-color;
+$tertiary: $tertiary-color;
+
+$success: $color-alert-green;
+$warning: $color-alert-yellow;
+$danger: $color-alert-red;
+$light: $gray-01;
+$dark: $gray-08;
+
+$gray: $secondary-color;
+$light-gray: rgba(130, 141, 171, 1);
+$dark-gray: $dark-gray-01;
+
+$gray-100: $gray-01;
+$gray-200: $gray-02;
+$gray-300: $gray-03;
+$gray-400: $gray-04;
+$gray-500: $gray-05;
+$gray-600: $gray-06;
+$gray-700: $gray-07;
+$gray-800: $gray-08;
+$gray-900: $gray-09;
+$black: $dark-gray-01;
+$brand-black: $dark-gray-01;
 
